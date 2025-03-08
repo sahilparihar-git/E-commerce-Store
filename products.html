@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            color: #333;
+        }
+        .sale-banner {
+            background-color: #ff6f61;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 2em;
+            font-weight: bold;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+        .product-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 30px;
+        }
+        .product {
+            background: white;
+            border-radius: 15px;
+            width: 250px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+        .product:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+        }
+        .product img {
+            max-width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .product h2 {
+            color: #ff6f61;
+            margin: 15px 0 10px;
+        }
+        .product-price {
+            font-size: 1.5em;
+            color: #333;
+            margin-bottom: 15px;
+        }
+        .buy-button {
+            background-color: #ff6f61;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+        }
+        .buy-button:hover {
+            background-color: #ff4c3b;
+        }
+    </style>
+</head>
+<body>
+    <div class="sale-banner">
+        <span>SALE! SALE! SALE! SALE! SALE! SALE! SALE! SALE! SALE! SALE!</span>
+    </div>
+
+    <div class="product-container">
+        <!-- Product 1 -->
+        <div class="product">
+            <img src="16promax.jpeg" alt="Product 1">
+            <h2>IPHONE 16 PRO MAX</h2>
+            <div class="product-price">$299.99</div>
+            <a href="https://www.apple.com/" class="buy-button" target="_blank">Buy Now</a>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product">
+            <img src="Screenshot 2024-12-17 031119.png" alt="Product 2">
+            <h2>IPHONE 16</h2>
+            <div class="product-price">$129.99</div>
+            <a href="https://www.apple.com/" class="buy-button" target="_blank">Buy Now</a>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product">
+            <img src="Screenshot 2024-12-17 031156.png" alt="Product 3">
+            <h2>IPHONE 15</h2>
+            <div class="product-price">$199.99</div>
+            <a href="https://www.apple.com/" class="buy-button" target="_blank">Buy Now</a>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product">
+            <img src="Screenshot 2024-12-17 031238.png" alt="Product 4">
+            <h2>IPHONE 14</h2>
+            <div class="product-price">$799.99</div>
+            <a href="https://www.apple.com/" class="buy-button" target="_blank">Buy Now</a>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="product">
+            <img src="download.jpeg" alt="Product 5">
+            <h2>IPHONE 11</h2>
+            <div class="product-price">$79.99</div>
+            <a href="https://www.apple.com/" class="buy-button" target="_blank">Buy Now</a>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="product">
+            <img src="Screenshot 2024-12-17 031418.png" alt="Product 6">
+            <h2>IPHONE 10</h2>
+            <div class="product-price">$399.99</div>
+            <a href="https://www.apple.com/" class="buy-button" target="_blank">Buy Now</a>
+        </div>
+
+        <!-- Product 7 -->
+        <div class="product">
+            <img src="Screenshot 2024-12-17 031517.png" alt="Product 7">
+            <h2>IPHONE XR</h2>
+            <div class="product-price">$449.99</div>
+            <a href="https://www.apple.com/" class="buy-button" target="_blank">Buy Now</a>
+        </div>
+
+        <!-- Product 8 -->
+        <div class="product">
+            <img src="iPhone_7_plus_Rose_Gold.jpeg" alt="Product 8">
+            <h2>IPHONE 7+</h2>
+            <div class="product-price">$249.99</div>
+            <a href="https://www.apple.com/" class="buy-button" target="_blank">Buy Now</a>
+        </div>
+
+        <!-- Product 9 -->
+        <div class="product">
+            <img src="Screenshot 2024-12-17 031753.png" alt="Product 9">
+            <h2>IPHONE 4</h2>
+            <div class="product-price">$599.99</div>
+            <a href="https://www.apple.com/" class="buy-button" target="_blank">Buy Now</a>
+        </div>
+
+        <!-- Product 10 -->
+        <div class="product">
+            <img src="Screenshot 2024-12-17 031613.png" alt="Product 10">
+            <h2>IPHONE 7</h2>
+            <div class="product-price">$349.99</div>
+            <a href="https://www.apple.com/" class="buy-button" target="_blank">Buy Now</a>
+        </div>
+    </div>
+</body>
+</html>
